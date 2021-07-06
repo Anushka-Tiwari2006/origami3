@@ -1,0 +1,48 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+img {               
+    border: 4mm ridge rgb(83, 142, 161);
+    box-shadow: 0 0 0 1rem yellowgreen;
+}
+body{
+    background-image: url("ff.png");
+    margin: 0px;
+}
+.text1{
+    font-family:fantasy;
+    font-size:6ch;
+    position: absolute;
+  top: 140px;;
+  left: 250px;
+}
+.centered{
+    font-family:cursive;
+    font-size:2.4ch;
+    position: absolute;
+  top: 260px;;
+  left: 100px;
+  background-color: purple;
+}
+.bodyImg{
+    background-color:plum;
+}
+.grid img{
+    border: 2px solid;
+    border-radius: 50px;
+    background-color:palevioletred;
+}
+.origamis{
+    border-radius: 20px;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    background-color:lightseagreen;
+}
